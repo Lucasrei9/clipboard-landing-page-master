@@ -1,0 +1,429 @@
+/* =============== root ================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  width: 300px;
+  color: var(--dark-grayish-blue);
+  font-weight: 500;
+  font-size: 2rem;
+  word-spacing: .2rem;
+  
+}
+
+h3 {
+  width: 300px;
+  margin: auto;
+  color: var(--dark-grayish-blue);
+  font-weight: 500;
+  font-size: 1.5rem;
+  word-spacing: .2rem;
+}
+
+p {
+  width: 300px;
+  margin: auto;
+  color: var(--grayish-blue);
+  line-height: 1.3rem;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* =================== header =================== */
+header {
+  background-image: url(./images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ================== history ================== */
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 0;
+  margin-inline: 1.7rem;
+  /* background-color: aqua; */
+}
+
+.logoPrincipalTop {
+  width: 120px;
+  margin-bottom: 2.5rem;
+}
+
+.history .text h2 {
+  /* padding-inline: 1rem; */
+  margin-bottom: 1rem;
+}
+
+.history .text p {
+  padding-inline: .7rem;
+  margin-bottom: 2.5rem;
+}
+
+.download a {
+  display: block;
+  text-decoration: none;
+  border-radius: 5rem;
+  padding: 1rem 5.2rem;
+  color: white;
+}
+
+.ios {
+  background-color: var(--strong-cyan);
+  margin-bottom: 1rem;
+
+}
+
+.ios:hover {
+  box-shadow: 1px 1px 3px rgb(26, 97, 97);
+  /* border-bottom: solid 2px rgb(37, 128, 128); */
+}
+
+.mac {
+  background-color: var(--light-blue);
+
+}
+
+.mac:hover {
+  box-shadow: 1px 1px 3px rgb(6, 14, 43);
+
+}
+
+/* ================= snippets ============== */
+.snippets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 0;
+  margin-inline: 1.7rem;
+  /* background-color: aqua; */
+}
+
+.text1 {
+  margin-bottom: 3rem;
+}
+
+.text1 h2 {
+  margin-bottom: 1rem;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer img {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.computer p {
+  margin-bottom: 2.5rem;
+  padding-inline: 1.5rem;
+}
+
+/* ================ access ================== */
+.access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+  margin-inline: 1.7rem;
+  /* background-color: aqua; */
+}
+
+.access h2 {
+  margin-bottom: 1rem;
+}
+
+.access p {
+  padding-inline: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.access img {
+  width: 100%;
+}
+
+
+/* ===================== workflow ================== */
+.workflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+  margin-inline: 1.7rem;
+}
+
+.text4 {
+  margin-bottom: 5rem;
+}
+
+.text4 h2 {
+  margin-bottom: 1rem;
+}
+
+.opçoes {
+  margin-bottom: 3rem;
+}
+
+.opçoes img {
+  text-align: center;
+}
+
+.opçoes h3 {
+  margin: 1rem;
+}
+
+.opçoes p {
+  margin-bottom: 4rem;
+  padding-inline: .5rem;
+}
+
+.marcas {
+  display: flex;
+  flex-direction: column;
+}
+
+.marcas img {
+  margin-bottom: 4rem;
+  width: 130px;
+}
+
+/* ================== clipboard ================= */
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5rem 0;
+  margin-inline: 1.7rem;
+}
+
+.text5 h3 {
+  margin-bottom: 1rem;
+  padding-inline: 1rem;
+}
+
+.text5 p {
+  margin-bottom: 3rem
+}
+
+/* ================  footer ================ */
+
+footer {
+  background-color: rgba(236, 232, 232, 0.603);
+  width: 100vw;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.informaçao img {
+  width: 60px;
+  margin-bottom: 2rem;
+}
+
+.informaçao p {
+  margin-bottom: 2rem;
+  color: rgb(105, 101, 101);
+    
+}
+
+.attribution { 
+  margin-top: 3rem;
+  font-size: 12px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+
+/* ============== modificação para telas partir de 700px ======== */
+
+@media (min-width: 700px) {
+  body {
+    overflow-x: hidden;
+
+  }
+  p {
+    width: 400px;
+  }
+
+  h2 {
+    margin: auto;
+  }
+
+  h3 {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+/* ================= modificação para desktop ======================= */
+
+@media (min-width: 1024px) {
+  /* ===========  root =========== */
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  h2 {
+    margin: auto;
+    width: 550px;
+  }
+
+  h3 {
+    width: 550px;
+    margin: auto;
+  }
+
+  p {
+    width: 550px;
+  }
+
+  /* ============= header ================= */
+  header {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+
+  /* ===========  download ============ */
+
+  .download {
+    display: flex;
+  }
+
+  .download a {
+    text-decoration: none;
+    border-radius: 5rem;
+    padding: .8rem 2.2rem;
+    color: white;
+    margin: .5rem;
+  }
+
+
+  /* =================== computer ==================== */
+
+  .computer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .computer img {
+    width: 550px;
+    margin: 1.5rem;
+  }
+
+  .computerText {
+    /* background-color: aqua; */
+    text-align: left;
+    margin: 1.5rem;
+
+  }
+
+  .computerText h3 {
+    position: relative;
+    right: 75px;
+    /* background-color: aqua; */
+    width: 200px;
+  }
+
+  .computerText p {
+    /* background-color: aqua; */
+    width: 350px;
+    padding: 0;
+  }
+
+
+  /* ================= access ================ */
+
+  .access img {
+    width: 800px;
+  }
+
+  /* ================= workflow ================= */
+
+  .workflow {
+    margin: auto;
+    padding: 1rem 0;
+    margin-inline: 1rem;
+  }
+
+  .text4 {
+    margin-bottom: 10rem;
+  }
+
+  .opçoes {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin-bottom: 7rem;
+
+  }
+
+  .opçoes div {
+    margin: -8rem;
+  }
+
+
+  .opçoes h3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .opçoes p {
+    width: 300px;
+  }
+
+  .marcas {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7rem;    
+  }
+
+  .marcas img {
+    width: 130px;
+    height: 30px;
+    margin: 0 2rem;
+  }
+}
